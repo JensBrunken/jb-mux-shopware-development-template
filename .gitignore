@@ -1,0 +1,6 @@
+/.idea
+/.vagrant
+*.orig
+*.iml
+etc/sw6/*
+dev-ops/jb-mux/import/*

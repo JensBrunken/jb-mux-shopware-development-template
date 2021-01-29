@@ -1,0 +1,14 @@
+jb-mux:
+  const:
+    MUX_SSH_USER: ""
+    MUX_SSH_HOST: ""
+    MUX_DIR: "dev-ops/jb-mux"
+    MUX_SCRIPT_DIR: "dev-ops/jb-mux/scripts"
+    MUX_IMPORT_DIR: "dev-ops/jb-mux/import"
+    MUX_PLUGIN_DIR: "custom/plugins"
+    MUX_MEDIA_DIR: "public"
+    MUX_DUMP_FILE: "muxdump.sql.gz"
+    MUX_TEST_FILE_TXT: "mux-test-ssh.txt"
+    MUX_TEST_FILE_GZIP: "mux-test-ssh.gzip"
+  paths:
+    - "dev-ops/jb-mux/actions"
